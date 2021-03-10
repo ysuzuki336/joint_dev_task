@@ -351,7 +351,6 @@ foreach($humans as $human){
 
 echo PHP_EOL;
 
-
 print("#####q21#####".PHP_EOL);
 //Q21. FizzBuzz問題の応用問題です。次の仕様、条件を満たすコードを書いて下さい。
 
