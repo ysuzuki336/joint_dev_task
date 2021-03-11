@@ -355,7 +355,11 @@ print("#####q21#####".PHP_EOL);
 //Q21. FizzBuzz問題の応用問題です。次の仕様、条件を満たすコードを書いて下さい。
 
 for($i=1; $i <= 30; $i++){
-  if($i % 21 == 0){
+  if($i % 105 == 0){
+    echo "FizzBuzzHoge".PHP_EOL;
+  }elseif($i % 35 == 0){
+    echo "BuzzHoge".PHP_EOL;
+  }elseif($i % 21 == 0){
     echo "FizzHoge".PHP_EOL;
   }elseif($i % 15 == 0){
     echo "FizzBuzz".PHP_EOL;
